@@ -9,9 +9,17 @@ import Head from 'next/head';
 
 export default function HomePage(props) {
   return (
+    <Fragment>
       <Head>
       </Head>
 
+      <Hero />
+      <AllPractices practices={props.practices} />
+      <FeaturedResults results={props.results} />
+      <ContactForm />
+    </Fragment>
+  );
+}
 
 
 }
