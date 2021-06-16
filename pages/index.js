@@ -10,7 +10,15 @@ import Head from 'next/head';
 export default function HomePage(props) {
   return (
     <Fragment>
+      {/* NOTE: Because I do not wnat to confuse this 
+        portfolio demonstration with the real AG Law website, 
+        I will comment out the meta tag to show how it could look */}
       <Head>
+        <title>Home | Law Firm</title>
+        {/* <meta
+          name="description"
+          content="Modesto-based Law firm for Attorney Anthony C. Gonsalves serving the 209 area code"
+        /> */}
       </Head>
 
       <Hero />
