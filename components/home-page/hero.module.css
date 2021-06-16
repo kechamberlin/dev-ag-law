@@ -1,0 +1,33 @@
+.hero {
+  text-align: center;
+  padding: var(--size-8) 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('../../public/images/site/ag-desk.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero p {
+  font-size: var(--size-16);
+  color: white;
+  width: 90%;
+  max-width: 40rem;
+  margin: auto;
+
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 425px) {
+  .hero {
+    height: 85vh;
+  }
+
+  .hero p {
+    font-size: var(--size-8);
+  }
+}
