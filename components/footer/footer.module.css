@@ -1,0 +1,6 @@
+.footer {
+  background: var(--orange);
+  padding: 1rem;
+  text-align: center;
+  display: block;
+}
