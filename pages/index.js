@@ -21,5 +21,14 @@ export default function HomePage(props) {
   );
 }
 
+export function getStaticProps() {
+  const featuredResults = getFeaturedResults();
+  const practices = getPractices();
 
+  return {
+    props: {
+      practices: practices,
+      results: featuredResults,
+    },
+  };
 }
