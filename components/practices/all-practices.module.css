@@ -1,0 +1,17 @@
+.practices {
+  width: 90%;
+  max-width: 60rem;
+  margin: var(--size-8) auto;
+}
+
+.practices h1 {
+  font-size: var(--size-8);
+  color: var(--orange);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .practices h1 {
+    font-size: var(--size-16);
+  }
+}
